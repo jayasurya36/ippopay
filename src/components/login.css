@@ -1,0 +1,40 @@
+.loginContainer{
+    margin: 10rem;
+}
+.loginContainer h1{
+    color: white;
+
+}
+.loginContainer input{
+    width: 20rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    display: block;
+    margin: 1rem auto;
+    font-size: 0.9rem;
+    color: white;
+    background-color: blue;
+}
+.loginContainer input:active{
+    border: 1px solid white;
+}
+.loginContainer button{
+    width: 20rem;
+    background-color: white;
+    color: blue;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.loginContainer input::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+.steps{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
